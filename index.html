@@ -4,33 +4,41 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="./styles/style.css">
   <title>Travelgram</title>
 </head>
 
 <body>
   <header>
-    <a href="#"><img src="./assets/Logo.png" alt=""></a>
-    <ul>
-      <li>icon</li>
-      <li>Explorar</li>
-      <li>Minhas viagens</li>
-    </ul>
-    <a href="#"><img src="./assets/Profile pic.png" alt=""></a>
+    <nav>
+      <div class="nav">
+        <a href="#"><img class="logo-nav" src="./assets/Logo.png" alt=""></a>
+        <ul class="nav-list">
+          <li><img src="./assets/Menu item.png" alt=""></li>
+          <li>Explorar</li>
+          <li>Minhas viagens</li>
+          <li><img class="img-nav" src="./assets/Profile pic.png" alt=""></li>
+        </ul>
+      </div>
+    </nav>
   </header>
   <main>
     <section id="profile">
       <div class="profile">
-        <img src="./assets/Profile pic.png" alt="">
-        <h1>Isabela Torres</h1>
-        <p>Amante de viagens, cultura e gastronomia. 🌍✈️
-          Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta a
-          partir da movimentada cidade de São Paulo. 🏙️📸</p>
+        <img class="img-profile" src="./assets/Profile pic.png" alt="">
+        <div class="info-pf">
+          <h1>Isabela Torres</h1>
+          <p>Amante de viagens, cultura e gastronomia. 🌍✈️
+            Aqui compartilho as histórias registradas em cada clique, explorando cantinhos fascinantes do nosso planeta
+            a
+            partir da movimentada cidade de São Paulo. 🏙️📸</p>
+        </div>
       </div>
       <div class="information">
         <ul>
-          <li><span>icon</span>São Paulo, Brazil</li>
-          <li><span>icon</span>37 países</li>
-          <li><span>icon</span>240 fotos</li>
+          <li class="icons"><span><img src="./assets/MapPin.png" alt=""></span>São Paulo, Brazil</li>
+          <li class="icons"><span><img src="./assets/AirplaneTilt.png" alt=""></span>37 países</li>
+          <li class="icons"><span><img src="./assets/Image-icon.png" alt=""></span>240 fotos</li>
         </ul>
       </div>
     </section>
@@ -52,11 +60,13 @@
     </section>
   </main>
   <footer>
-    <ul>
-      <li>Travelgram © 2026</li>
-      <li>Termos de uso</li>
-      <li>Política de privacidade</li>
-    </ul>
+    <div class="footer">
+      <p>Travelgram © 2026</p>
+      <ul>
+        <li>Termos de uso</li>
+        <li>Política de privacidade</li>
+      </ul>
+    </div>
   </footer>
 </body>
 
